@@ -1,0 +1,28 @@
+<div></div><div></div><div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    background:#62306D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    display:flex;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    margin-top:100px
+  }
+  div:nth-child(2){
+    transform-origin:top;
+    transform: rotate(180deg);
+  }
+</style>
