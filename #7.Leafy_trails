@@ -1,0 +1,39 @@
+<div></div>
+<style>
+  body{
+    margin:0;
+    padding:0;
+    background: #0B2429;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #F3AC3C;
+    border-radius:  100px 0;
+    position:relative;
+    right:-50;
+  }
+  div::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius:  100px 0;
+    position:absolute;
+    right:50px;
+    z-index:-1;
+  }
+    div::after{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: #1A4341;
+    border-radius:  100px 0;
+    position:absolute;
+    right:100px;
+    z-index:-2;
+  }
+</style>
