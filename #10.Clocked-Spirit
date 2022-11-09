@@ -1,0 +1,60 @@
+<div class="box first">
+  <div class="circle even-outer">
+      <div class="inner-circle even-inner"></div>
+  </div>
+</div>
+<div class="box">
+  <div class="circle">
+      <div class="inner-circle"></div>
+  </div>
+</div>
+<div class="box first">
+  <div class="circle even-outer">
+      <div class="inner-circle even-inner"></div>
+  </div>
+</div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background:#62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box{
+    width:100px;
+    height:200px;
+    background:#F7EC7D;
+    position: relative;
+    top:50px
+  }
+  .circle{
+    width:100px;
+    height:100px;
+    background:#E38F66;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-25%
+  }
+  .inner-circle{
+    width:60px;
+    height:60px;
+    background:#AA445F;
+    border-radius:50%;
+  }  
+  .first{
+    top:50%
+  }
+  .even-outer{
+    background:#AA445F
+  }
+  .even-inner{
+    background:#E38F66
+  }
+</style>
